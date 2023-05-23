@@ -1,0 +1,18 @@
+file_name,education,professional_skill,email_id,phone_number,experience,qualification,job_title
+Resume_1.pdf,"['master', 'bachelor', 'master of science', 'be', 'ms']","['python', 'sql', 'r', 'machine learning', 'statistical modeling', 'excel', 'powerpoint', 'tableau', 'deep learning', 'ai', 'artificial intelligence', 'pyspark', 'mlops', 'azure', 'aws', 'hadoop', 'databricks', 'logistic regression', 'scorecard', 'data visualization']",abhisuman.2512@gmail.com,9304353539,2,"['master', 'bachelor', 'bachelor']",data scientist
+Resume_10.pdf,"['master', 'm.tech', 'master of business administration', 'b.e']",[],milonmahapatra87@gmail.com,7077721612,3,"['master', 'bachelor', 'bachelor']",data analyst
+Resume_11.pdf,[],"['sql', 'statistics', 'tableau', 'azure']",pasupuleti.saipriya44@gmail.com,9154489124,,[],data engineer
+Resume_12.pdf,"['master', 'bachelor']","['sql', 'r', 'excel', 'powerpoint', 'tableau', 'azure', 'hadoop']",gprasanth.bi@gmail.com,8976402918,918,"['master', 'bachelor', 'bachelor']",data scientist
+Resume_13.pdf,['b.e'],"['sql', 'excel', 'tableau', 'azure', 'data visualization']",sanazkhan05@gmail.com,8788580499,,['bachelor'],data scientist
+Resume_14.pdf,[],"['python', 'sql', 'r', 'ml', 'machine learning', 'statistical modeling', 'excel', 'logistic regression']",saurav.sinha829@gmail.com,8296607591,,[],data scientist
+Resume_15.pdf,"['bachelor', 'bachelor of science']","['sql', 'excel', 'powerbi']",veeranjaneyuluka@gmail.com,9063305047,3.8,['bachelor'],data scientist
+Resume_16.pdf,"['bachelor', 'b.tech']","['python', 'sql', 'r', 'machine learning', 'tableau', 'azure', 'logistic regression', 'data preprocessing']",vidhisngh0418.vs@gmail.com,7838162984,4,['bachelor'],data scientist
+Resume_17.pdf,['b.tech'],"['python', 'sql']",viveklunia143@gmail.com,9413279969,,['bachelor'],data scientist
+Resume_2.pdf,"['master', 'm.tech', 'master of business administration', 'b.e']",[],milonmahapatra87@gmail.com,7077721612,3,"['master', 'bachelor', 'bachelor']",data scientist
+Resume_3.pdf,[],"['python', 'sql', 'machine learning', 'statistical modeling', 'excel']",ranjit.sahu@stratlytics.com,NA,1.5,[],data scientist
+Resume_4.pdf,"['mba', 'b.e']","['python', 'sql', 'machine learning', 'excel', 'tableau', 'ai', 'azure', 'data visualization']",ujjwalnanda2@gmail.com,9937296969,4.5,"['master', 'bachelor', 'bachelor']",data scientist
+Resume_5.pdf,['pg'],"['python', 'sql', 'r', 'ml', 'machine learning', 'excel', 'pyspark', 'azure', 'databricks']",rdevikrishna7@gmail.com,7559874547,,"['master', 'bachelor']",data scientist
+Resume_6.pdf,['b.tech'],"['sql', 'excel', 'powerpoint', 'powerbi', 'tableau']",bathulurihema@gmail.com,8639625260,4.5,['bachelor'],data scientist
+Resume_7.pdf,"['bachelor', 'b.e']","['sql', 'r', 'pyspark', 'azure', 'databricks']",maheshkvn505@gmail.com,7013644866,,['bachelor'],data scientist
+Resume_8.pdf,[],"['python', 'sql', 'excel']",thisismadhu.d@gmail.com,9948735386,3.6,[],data scientist
+Resume_9.pdf,"['master', 'mba', 'master of business administration']","['sql', 'excel', 'powerpoint', 'data visualization']",mayuridhakate27@gmail.com,9834905823,7764,"['master', 'bachelor']",data scientist
