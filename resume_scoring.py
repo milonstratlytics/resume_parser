@@ -17,7 +17,7 @@ import numpy as np
 
 def predict_resume_scoring(job_title,skill,education,experience):
     
-    database = pd.read_csv(r'C:\Users\2668rj\Projects\DE Fleet\cv_parser\database.csv')
+    database = pd.read_csv('database.csv')
     job_title = job_title.lower()
     skill = skill.lower()
     education = education.lower()
