@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Scoring App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      color: #ffffff;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: tomato;
+    }
+    .input-group {
+      margin-bottom: 10px;
+    }
+    .input-label {
+      display: block;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    .input-field {
+      width: 100%;
+      padding: 8px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    .output {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f5f5f5;
+      color: #333333;
+      font-weight: bold;
+      text-align: center;
+    }
+    .experience-value {
+      display: inline-block;
+      font-weight: normal;
+      color: #333333;
+      margin-left: 5px;
+    }
+  </style>
+  <script>
+    function updateExperienceValue() {
+      var experienceInput = document.getElementById('experience');
+      var experienceValue = document.getElementById('experience-value');
+      experienceValue.innerText = experienceInput.value;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Resume Scoring App</h2>
+    <p>Please fill up the following inputs</p>
+    <form action="/predict" method="POST">
+      <div class="input-group">
+        <label class="input-label" for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" placeholder="Enter job title you are looking for" class="input-field">
+      </div>
+      <div class="input-group">
+        <label class="input-label" for="skill">Skills (comma-separated):</label>
+        <input type="text" id="skill" name="skill" placeholder="Enter all required skills you are looking for" class="input-field">
+      </div>
+      <div class="input-group">
+        <label class="input-label" for="education">Education:</label>
+        <select id="education" name="education" class="input-field">
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+          <option value="phd">PhD</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label class="input-label" for="experience">Experience (in years):</label>
+        <input type="range" id="experience" name="experience" min="0" max="20" value="0" class="input-field" oninput="updateExperienceValue()">
+        <span id="experience-value" class="experience-value">0</span>
+      </div>
+      <input type="submit" value="Predict" class="submit-btn">
+    </form>
+    <div class="output">
+      {{ output }}
+    </div>
+  </div>
+</body>
+</html>
